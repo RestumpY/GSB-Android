@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">GSB Mobile</string>
+
+    <string-array name="defaultValue">
+        <item>Jean</item>
+        <item>Luck</item>
+        <item>Tyler</item>
+    </string-array>
+
+    <string-array name="motif">
+        <item>Motif1</item>
+        <item>Motif2</item>
+        <item>Motif3</item>
+    </string-array>
+
+    <string-array name="confiance">
+        <item>Convaincu</item>
+        <item>Peu convaincu</item>
+        <item>Pas convaincu</item>
+    </string-array>
+</resources>

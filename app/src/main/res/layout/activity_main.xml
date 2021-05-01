@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="match_parent"
+        android:layout_height="358dp"
+        app:srcCompat="@drawable/gsb"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="47dp" />
+
+
+    <EditText
+        android:id="@+id/idlogin"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="Login"
+        android:inputType="textCapWords"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="51dp" />
+
+    <EditText
+        android:id="@+id/idMdp"
+        android:layout_width="118dp"
+
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="Mot de passe"
+        android:inputType="textPassword"
+        tools:ignore="DuplicateIds"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="51dp" />
+
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="53dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioVisiteurs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Visiteurs" />
+
+        <RadioButton
+            android:id="@+id/RadioDelegues"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Délégués" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/connexion"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#1184DF"
+        android:onClick="connexion"
+        android:text="Connexion" />
+
+
+</LinearLayout>
